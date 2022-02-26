@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul {
+    list-style: none; /*estilos de las listas*/
+}
+ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Tipo de letra*/
+    font-size: 22px; /*Tamaño de letra*/
+    height: 60px; /*Altura de cada opcion de la lista*/
+}
+ul li a{
+    height:  60px; /*Altura*/
+    background-color:  rgb(109, 0, 0); /*color de fondo*/
+    display: block;
+    border-left:  10px solid rgb(0, 0, 0);
+    border-right: 5px solid rgb(0, 0, 0);
+    padding-left: 15px; /*separacion izquierda del texto*/
+    text-decoration: none;
+    color: #000000;
+    box-shadow: 7px 19px 15px #000000;
+}
+ul li a:hover{
+    margin-left: 10px; /*separacion del lado izquierdo*/
+    color: #ffffff; /*color de letra*/
+    background-color: #af2222; /*color de fondo*/
+    box-shadow: 10px 10px 20px #000; /*sombra*/
+    transform: rotate(7deg); /*movimiento de rotacion*/
+    -moz-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+}
+td{
+    vertical-align: top;
+}
+body {
+    background-color: #000000
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    Font-size: 22px;
+}
+div{
+    color: #000000;
+    height: 100%;
+    height: 100%;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #720000;
+    border-radius: 15xp;
+    border: solid 2px #000000;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 15px 15px 15px #000000;
+}
